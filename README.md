@@ -1,4 +1,4 @@
-# GrowEasy AI CSV Importer
+# CSV Importer
 
 Upload a lead CSV in **any layout** — Facebook Lead Ads, Google Ads, a real-estate CRM export,
 a marketing agency sheet, or something hand-built in Excel — and this maps it into GrowEasy's
