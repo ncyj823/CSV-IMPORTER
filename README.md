@@ -4,7 +4,8 @@ Upload a lead CSV in **any layout** — Facebook Lead Ads, Google Ads, a real-es
 a marketing agency sheet, or something hand-built in Excel — and this maps it into GrowEasy's
 fixed CRM schema using an LLM, with no assumptions about column names.
 
-**Position applied for:** Software Developer Intern_
+**Position applied for:** Software Developer Intern
+**Project link:** https://csv-importer-git-main-ncyj823s-projects.vercel.app/
 
 ---
 
