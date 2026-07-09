@@ -5,7 +5,7 @@ a marketing agency sheet, or something hand-built in Excel — and this maps it 
 fixed CRM schema using an LLM, with no assumptions about column names.
 
 **Position applied for:** Software Developer Intern
-Project link:** https://csv-importer-tau.vercel.app/
+**Project link:** https://csv-importer-tau.vercel.app/
 
 ---
 
