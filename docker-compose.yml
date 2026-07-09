@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "4000:4000"
+    environment:
+      PORT: 4000
+      FRONTEND_ORIGIN: http://localhost:3000
+      GROQ_API_KEY: ${GROQ_API_KEY}
+      GROQ_MODEL: ${GROQ_MODEL:-llama-3.3-70b-versatile}
+      BATCH_SIZE: ${BATCH_SIZE:-15}
+      MAX_CONCURRENT_BATCHES: ${MAX_CONCURRENT_BATCHES:-3}
+      MAX_RETRIES_PER_BATCH: ${MAX_RETRIES_PER_BATCH:-3}
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_BASE_URL: http://localhost:4000
+    depends_on:
+      - backend
+    restart: unless-stopped

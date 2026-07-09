@@ -1,0 +1,27 @@
+# deps
+node_modules/
+**/node_modules/
+
+# env
+.env
+.env.local
+**/.env
+**/.env.local
+
+# build output
+dist/
+.next/
+out/
+**/dist/
+**/.next/
+
+# logs
+npm-debug.log*
+*.log
+
+# OS
+.DS_Store
+
+# editors
+.vscode/
+.idea/
